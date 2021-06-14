@@ -1,0 +1,119 @@
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+$white: #fff;
+$gray: #6c757d;
+$gray-dark: #343a40;
+$primary: #0d6efd;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+
+@media (min-width: 992px){
+    .border-md-start-0{
+        border-left: 1px solid #dee2e6 !important;
+    }
+
+    .border-md-top-0{
+        border-top: 0 !important;
+    }
+
+    .language{
+        width: 50%;
+    }
+
+    .watermark{
+        position: fixed; 
+        bottom:0; 
+        right: 20px;
+    }
+
+    .col-lg-30-s {
+        flex: 0 0 auto;
+        width: 30%;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .profile-img{
+        width: 180px;
+    }
+}
+
+@media (max-width:992px) {
+    .profile-img{
+        width: 148px;
+    }
+
+    .language{
+        width: 75%;
+    }
+
+    #social-media-buttons{
+        width: 50%;
+    }
+}
+
+@media (max-width:576px) {
+    #social-media-buttons{
+        width: 75%;
+    }
+
+
+    .profile-img{
+        width: 150px !important;
+    }
+}
+
+.w-20{
+    width: 20%;
+    height: auto;
+}
+
+.profile-img{
+    width: 221px;
+}
+
+.icon-s{
+    position: absolute;
+    transform: translate(-130%,25%);
+}
+
+.watermark{
+    position: absolute; 
+    bottom:-25px; 
+    right: 20px;
+}
+
+.project-img-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: $white;
+    opacity:0;
+}
+
+.project-img{
+
+    &:hover{
+        .project-img-overlay{
+            opacity: .4 !important;
+            transition:opacity .3s;
+        }
+    }
+
+}
