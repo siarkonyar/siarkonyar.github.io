@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+    .project-card {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin-right: 80px !important;
+
+        .project-img {
+            border-top-left-radius: 5px !important;
+            border-bottom-left-radius: 0 !important;
+            border-top-right-radius: 5px !important;
+            border-bottom-right-radius: 0 !important;
+        }
+    }
+}
+
+.project-card {
+    width: 100%;
+    margin-right: 0;
+
+    .project-img-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: white;
+        opacity: 0;
+    }
+
+    .project-img {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+        &:hover {
+            .project-img-overlay {
+                opacity: 0.4 !important;
+                transition: opacity 0.3s;
+            }
+        }
+    }
+}
