@@ -15,14 +15,18 @@
                 padding-bottom: 15px;
                 font-size: 1.25rem;
                 height: 100%;
+                width: 100%;
                 &.active {
                     font-weight: 700;
-                    &::after {
-                        content: "";
-                        display: block;
-                        width: 22px;
-                        margin: auto;
-                        border-bottom: 3px solid white;
+                    .nav-link-inner{
+                        display: inline-block;
+                        &::after {
+                            content: "";
+                            display: block;
+                            width: 22px;
+                            margin: auto;
+                            border-bottom: 3px solid white;
+                        }
                     }
                 }
             }

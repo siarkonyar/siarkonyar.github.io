@@ -2,12 +2,11 @@
     .project-card {
         flex: 0 0 auto;
         width: 30% !important;
-        margin-right: 80px !important;
 
         .project-img {
-            border-top-left-radius: 5px !important;
+            border-top-left-radius: 4px !important;
             border-bottom-left-radius: 0 !important;
-            border-top-right-radius: 5px !important;
+            border-top-right-radius: 4px !important;
             border-bottom-right-radius: 0 !important;
         }
     }
@@ -15,7 +14,6 @@
 
 .project-card {
     width: 100%;
-    margin-right: 0;
 
     .project-img-overlay {
         position: absolute;
@@ -28,8 +26,8 @@
     }
 
     .project-img {
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
 
