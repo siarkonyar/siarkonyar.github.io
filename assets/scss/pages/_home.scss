@@ -25,6 +25,9 @@
 
 .social-media-button { 
     width: 100%;
+    &:focus{
+        box-shadow: none  !important;
+    }
     &.linkedin {
         a {
             color: #211f1f !important;
