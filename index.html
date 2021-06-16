@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
-<body>
+<body id="home" class="position-relative">
+
     <nav class="navbar py-0 navbar-expand-md navbar-dark bg-dark">
         <div class="container-md p-0">
             <div class="navbar-brand ms-3 ms-lg-0">
-                <p class="mb-0 text-uppercase fs-1">
-                    siar<span class="fw-bold">konyar</span>
-                </p>
+                <h1 class="mb-0 text-uppercase fs-1">
+                    <span class="fw-lighter">siar</span><span class="fw-bold">konyar</span>
+                </h1>
             </div>
             <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbar">
@@ -30,6 +31,11 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a href="index.html" class="nav-link active">
+                            <span class="nav-link-inner">About Me</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="resume.html" class="nav-link">
                             <span class="nav-link-inner">Resume</span>
                         </a>
                     </li>
@@ -42,147 +48,92 @@
             </div>
         </div>
     </nav>
-    
+
     <section class="container-lg my-4">
+        <div class="row">
 
-        <!-- personal info -->
-        <header class="text-center border-bottom pb-3">
-            <h2 class="fw-bold">Zafer Şiar Konyar</h2>
+            <!-- ABOUT ME -->
+            <div class="mb-4 row" id="about-me">
+                <div class="col-lg-8 col-12 mb-3">
+                    <h2 class="text-uppercase fw-bold mb-4">about me</h2>
+                    <div class="lead">
 
-            <div>
-                <p class="mb-0">
-                    <i class="bi bi-geo-alt-fill resume-header-icon"></i>
-                    50.yıl Mahallesi, 2795 sokak, No: 35 Daire: 11
-                </p>
-                <p class="mb-0">
-                    Yenişehir, Mersin / TURKEY
-                </p>
-                <p class="mb-0">
-                    <i class="bi bi-telephone-fill resume-header-icon"></i>
-                    +90 (546)-635 33 00
-                </p>
-            </div>
-        </header>
+                        <ul>
+                            <li>
+                                Hi, I’m Zafer Şiar Konyar
+                            </li>
+                            <li>
+                                I'm studying Computer Engineering at Istanbul Bilgi University with full OSYM
+                                scholarship
+                            </li>
+                            <li>
+                                I’m currently learning javascript
+                            </li>
+                            <li>
+                                How to reach me : 
+                                <a href="mailto:zafersiark@gmail.com">zafersiark@gmail.com</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <h4>OS</h4>
+                                <img
+                                    src="https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=windows&logoColor=white"></img>
+                            </li>
+                            <li class="mb-3">
+                                <h4>Languages</h4>
+                                <img alt="JavaScript"
+                                    src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+                                <img alt="HTML5"
+                                    src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
+                                <img alt="CSS3"
+                                    src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
+                                <img alt="Java"
+                                    src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white" />
+                            </li>
+                            <li>
+                                <h4>Frameworks</h4>
 
-        <!-- summary -->
-        <div class="mt-5">
-
-            <h4>Summary</h4> <br>
-            <p class="ms-5 ps-lg-5 lead">
-                I am studying computer engineering at Istanbul Bilgi University with full OSYM scholarship.
-            </p>
-
-        </div>
-
-        <!-- education -->
-        <div class="mt-4">
-
-            <h4>Education</h4> <br>
-            <div class="ms-5 ps-lg-5">
-
-                <div class="d-flex justify-content-between mb-3">
-                    <div>
-                        <p class="h5">Istanbul Bilgi University, Istanbul, Turkey</p>
-                        <p class="h6">Computer Eng., Faculty of Engineering, 100% English (Full OSYM scholarship)
-                            <small class="text-muted">(Bachelor's degree)</small>
+                                <img alt="Bootstrap"
+                                    src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white" />
+                            </li>
+                        </ul>
                         </p>
                     </div>
-
-                    <div class="text-nowrap">
-                        2020-Present
-                    </div>
                 </div>
 
-                <div class="d-flex justify-content-between mb-3">
+                <!-- GET IN TOUCH -->
+                <div class="col-lg-4 col-12 home-get-in-touch-border px-lg-4 pt-3 pt-lg-0">
+                    <h2 class="text-uppercase fw-bold mb-4">get in touch</h2>
+
                     <div>
-                        <p class="h5">Icel Anatolian High School, Mersin, Turkey</p>
-                    </div>
-
-                    <div class="text-nowrap">
-                        2016-2019
+                        <button type="button" class="btn social-media-button linkedin mb-2">
+                            <a href="https://www.linkedin.com/in/zafer-şiar-konyar-7783b01bb/"
+                                class="text-decoration-none">
+                                <i class="bi bi-linkedin"></i>
+                                LinkedIn
+                            </a>
+                        </button>
+                        <button type="button" class="btn social-media-button github mb-2">
+                            <a href="https://github.com/siarkonyar" class="text-decoration-none">
+                                <i class="bi bi-github"></i>
+                                GitHub
+                            </a>
+                        </button>
+                        <button type="button" class="btn social-media-button gmail">
+                            <a href="mailto:zafersiark@gmail.com" class="text-decoration-none">
+                                <i class="bi bi-envelope-fill"></i>
+                                Gmail
+                            </a>
+                        </button>
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-between mb-3">
-                    <div>
-                        <p class="h5"> Lisan Fen Kuzey Anatolian High School, Mersin, Turkey</p>
-                    </div>
-
-                    <div class="text-nowrap">
-                        2019-2020
-                    </div>
-                </div>
 
             </div>
 
-        </div>
 
-        <!-- computer skills -->
-        <div class="mt-4">
 
-            <h4>Computer Skills</h4> <br>
-            <div class="ms-5 ps-lg-5">
-                <p class="mb-1">
-                    <span class="text-decoration-underline fw-bold">Application Software:</span>
-                    Photoshop
-                </p>
-
-                <p class="mb-1">
-                    <span class="text-decoration-underline fw-bold">Programming Languages:</span>
-                    HTML5, CSS3, javascript
-                </p>
-
-                <p class="mb-1">
-                    <span class="text-decoration-underline fw-bold">Frameworks:</span>
-                    Bootstrap5
-                </p class="mb-1">
-
-                <p class="mb-1">
-                    <span class="text-decoration-underline fw-bold">Operating Systems:</span>
-                    Windows 10, XP, 7
-                </p>
-            </div>
-
-        </div>
-
-        <!-- projects -->
-        <div class="mt-4">
-
-            <h4 class="mb-4">Projects</h4>
-            <p class="ms-5 ps-lg-5">
-                Working on my own website.
-            </p>
-
-        </div>
-
-        <!-- languages -->
-        <div class="mt-4 language">
-
-            <h4>Languages</h4> <br>
-            <div class="ms-5 ps-lg-5 d-flex justify-content-between">
-
-                <div>
-                    <p class="mb-2">Turkish:</p>
-                    <p class="mb-2">German:</p>
-                    <p class="mb-2">English:</p>
-                </div>
-
-                <div>
-                    <p class="mb-2 text-nowrap">Native Language</p>
-                    <p class="mb-2">Elemantary</p>
-                    <p class="mb-0">Reading skills:</p>
-                    <p class="mb-0">Writing skills:</p>
-                    <p class="mb-0">Verbal skills:</p>
-                </div>
-
-                <div class="d-flex flex-column justify-content-end">
-                    <p class="mb-0">Perfect</p>
-                    <p class="mb-0">Perfect</p>
-                    <p class="mb-0">Perfect</p>
-                </div>
-            </div>
-
-        </div>
 
     </section>
 

@@ -1,21 +1,67 @@
-@media (min-width:768px) {
-    .home-pp{
-        width: 200px;
-        display: inline-block !important;
-    }
+@media (min-width: 768px) {
 }
-@media (min-width:992px) {
-    #about-me{
+@media (min-width: 992px) {
+    #about-me {
         margin-bottom: 0 !important;
-        .home-pp{
-            width: 300px;
-        }
+    }
+
+    .home-get-in-touch-border {
+        border-left: 1px solid #dee2e6 !important;
+        border-top: 0 !important;
     }
 }
 
-#about-me{
+#about-me {
     margin-bottom: 40px !important;
-    .home-pp{
+    .home-pp {
         display: none;
+    }
+}
+
+.home-get-in-touch-border {
+    border-left: 0;
+    border-top: 1px solid #dee2e6;
+}
+
+.social-media-button { 
+    width: 100%;
+    &.linkedin {
+        a {
+            color: #211f1f !important;
+        }
+        border-color: #211f1f;
+        border-radius: 0;
+        &:hover {
+            background-color: #211f1f;
+            a {
+                color: white !important;
+            }
+        }
+    }
+    &.github {
+        a {
+            color: #0e76a8 !important;
+        }
+        border-color: #0e76a8;
+        border-radius: 0;
+        &:hover {
+            background-color: #0e76a8;
+            a {
+                color: white !important;
+            }
+        }
+    }
+    &.gmail {
+        a {
+            color: #d44638 !important;
+        }
+        border-color: #d44638;
+        border-radius: 0;
+        &:hover {
+            background-color: #d44638;
+            a {
+                color: white !important;
+            }
+        }
     }
 }
