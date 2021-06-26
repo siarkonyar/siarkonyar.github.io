@@ -1,3 +1,7 @@
+$github-color:#211f1f;
+$linkedin-color:#0e76a8;
+$gmail-color:#d44638;
+
 @media (min-width: 768px) {
 }
 @media (min-width: 992px) {
@@ -30,12 +34,12 @@
     }
     &.linkedin {
         a {
-            color: #211f1f !important;
+            color:$linkedin-color  !important;
         }
-        border-color: #211f1f;
+        border-color: $linkedin-color;
         border-radius: 0;
         &:hover {
-            background-color: #211f1f;
+            background-color: $linkedin-color;
             a {
                 color: white !important;
             }
@@ -43,12 +47,12 @@
     }
     &.github {
         a {
-            color: #0e76a8 !important;
+            color: $github-color !important;
         }
-        border-color: #0e76a8;
+        border-color: $github-color;
         border-radius: 0;
         &:hover {
-            background-color: #0e76a8;
+            background-color: $github-color;
             a {
                 color: white !important;
             }
@@ -56,12 +60,12 @@
     }
     &.gmail {
         a {
-            color: #d44638 !important;
+            color: $gmail-color !important;
         }
-        border-color: #d44638;
+        border-color: $gmail-color;
         border-radius: 0;
         &:hover {
-            background-color: #d44638;
+            background-color: $gmail-color;
             a {
                 color: white !important;
             }
