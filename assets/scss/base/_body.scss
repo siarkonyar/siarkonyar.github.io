@@ -9,12 +9,9 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 45, 45);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #ff0000;
+    background: linear-gradient(#6717cd,#2871fa);
+    &:hover {
+    }    
 }
 
 img {
