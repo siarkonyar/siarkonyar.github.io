@@ -30,12 +30,12 @@
         border-bottom-left-radius: 3px;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
+    }
 
-        &:hover {
-            .project-img-overlay {
-                opacity: 0.4 !important;
-                transition: opacity 0.3s;
-            }
+    &:hover {
+        .project-img-overlay {
+            opacity: 0.4 !important;
+            transition: opacity 0.3s;
         }
     }
 }
