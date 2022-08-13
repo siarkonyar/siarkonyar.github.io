@@ -1,5 +1,17 @@
 @media (min-width: 768px) {
     .project-card {
+
+        .project-img {
+            border-top-left-radius: 3px !important;
+            border-bottom-left-radius: 0 !important;
+            border-top-right-radius: 3px !important;
+            border-bottom-right-radius: 0 !important;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .project-card {
         flex: 0 0 auto;
         width: 30% !important;
 

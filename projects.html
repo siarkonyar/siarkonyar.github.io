@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,163 +7,179 @@
     <title>Zafer Şiar Konyar</title>
     <meta name="description" content="this is the personal website of me. I upload my resume and my projects here.">
     <meta name="keywords" content="zafer konyar,şiar konyar,zafer şiar konyar,konyar,şiar,zafer">
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo/kertenkele.jpg">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/logo/apple-icon_57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/logo/apple-icon_72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/logo/apple-icon_114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/logo/apple-icon_144x144.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
+<body>
+    <div class="outter-all d-flex flex-lg-row flex-column">
+        <nav class="d-flex flex-column align-items-center justify-content-start sidebar">
+            <video autoplay muted loop id="video-background">
+                <source src="assets/img/background.mp4">
+            </video>
 
-<body id="home">
-
-    <nav class="navbar py-0 navbar-expand-md navbar-dark bg-dark">
-        <div class="container-md p-0">
-            <div class="navbar-brand ms-3 ms-lg-0">
-                <h1 class="mb-0 text-uppercase fs-1">
-                    <span class="fw-lighter">siar<span /><span class="fw-bold">konyar</span>
+            <header class="d-flex flex-column align-items-center">
+                <h1 class="text-center header-text mb-4">
+                    Zafer Şiar<br> Konyar
                 </h1>
+    
+                <div class="profile-picture">
+                    <img src="assets/img/profil.jpg" alt="pp" class="pp">
+                </div>
+            </header>
+
+            <ul class="list-unstyled w-100 sidebar-ul">
+                <li class="sidebar-item">
+                    <a href="index.html">Home</a>
+                </li> 
+                <li class="sidebar-item">
+                    <a href="resume.html">Resume</a>
+                </li>
+                <li class="sidebar-item active">
+                    <a href="projects.html">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled social-media">
+                <li class="social-media-item">
+                    <a href="mailto:siar.konyar@bilgiedu.net" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a href="https://www.linkedin.com/in/zafer-şiar-konyar-7783b01bb/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a href="https://github.com/siarkonyar" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+
+			<div class="d-flex h-100">
+                <small class="text-muted align-self-end text-center">Built and designed by Zafer Şiar Konyar. <br>
+                All rights reserved. ©</small>
             </div>
-            <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse h-100" id="navbar">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">
-                            <span class="nav-link-inner">About Me</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="resume.html" class="nav-link">
-                            <span class="nav-link-inner">Resume</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="projects.html" class="nav-link active">
-                            <span class="nav-link-inner">Projects</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+        
+		<section class="p-5">
 
-    <section class="container my-4">
+			<div class="row g-3 justify-content-between">
+	
+				<a href="https://github.com/siarkonyar/seker-yem-frontend"
+					class="text-dark text-decoration-none project-card col-12 card px-0" target="_blank">
+					<div class="row g-0">
+	
+						<div class="col-md-12 col-3 position-relative project-img">
+							<span class="project-img-overlay"></span>
+							<img src="assets/img/projects/seker-yem.png" class="img-fluid project-img" alt="">
+						</div>
+	
+						<div
+							class="col-md-12 col-9 d-flex align-items-center text-center text-md-start card-body py-0 p-md-3">
+	
+							<div class="">
+								<h5 class="card-title mb-0">Seker Yem</h5>
+								<div class="card-text d-none d-md-inline-block">
+									This is the frontend project I made for Seker Yem company.
+								</div>
+							</div>
+	
+						</div>
+	
+					</div>
+				</a>
+	
+				<a href="https://github.com/siarkonyar/siarkonyar.github.io"
+					class="text-dark text-decoration-none project-card col-12 card px-0" target="_blank">
+					<div class="row g-0">
+	
+						<div class="col-md-12 col-3 position-relative project-img">
+							<span class="project-img-overlay"></span>
+							<img src="assets/img/projects/personal-website.png" class="img-fluid project-img" alt="">
+						</div>
+	
+						<div
+							class="col-md-12 col-9 d-flex align-items-center text-center text-md-start card-body py-0 p-md-3">
+	
+							<div class="">
+								<h5 class="card-title mb-0 text-capitalize">my personal website</h5>
+								<div class="card-text d-none d-md-inline-block">
+									This is my personal website.
+								</div>
+							</div>
+	
+						</div>
+	
+					</div>
+				</a>
+	
+				<a href="https://github.com/siarkonyar/ideabu"
+					class="text-dark text-decoration-none project-card col-12 card px-0" target="_blank">
+					<div class="row g-0">
+	
+						<div class="col-md-12 col-3 position-relative project-img">
+							<span class="project-img-overlay"></span>
+							<img src="assets/img/projects/ideabu.png" class="img-fluid project-img" alt="">
+						</div>
+	
+						<div
+							class="col-md-12 col-9 d-flex align-items-center text-center text-md-start card-body py-0 p-md-3">
+	
+							<div class="">
+								<h5 class="card-title mb-0">Ideabu</h5>
+								<div class="card-text d-none d-md-inline-block">
+									This is the frontend project I made for Ideabu.
+								</div>
+							</div>
+	
+						</div>
+	
+					</div>
+				</a>
+	
+				<a href="https://github.com/siarkonyar/berqa-frontend"
+					class="text-dark text-decoration-none project-card col-12 card px-0" target="_blank">
+					<div class="row g-0">
+	
+						<div class="col-md-12 col-3 position-relative project-img">
+							<span class="project-img-overlay"></span>
+							<img src="assets/img/projects/berqa-tea.png" class="img-fluid project-img" alt="">
+						</div>
+	
+						<div
+							class="col-md-12 col-9 d-flex align-items-center text-center text-md-start card-body py-0 p-md-3">
+	
+							<div class="">
+								<h5 class="card-title mb-0">Berqa Tea</h5>
+								<div class="card-text d-none d-md-inline-block">
+									This is the frontend project I made for Berqa Tea Company.
+								</div>
+							</div>
+	
+						</div>
+	
+					</div>
+				</a>
+	
+			</div>
+	
+		</section>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/f22d756aab.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="/assets/js/app.js"></script>
 
-        <div class="row g-3 justify-content-between">
-
-            <a href="https://github.com/siarkonyar/seker-yem-frontend"
-                class="text-dark text-decoration-none project-card col-12 card px-0" target="_blank">
-                <div class="row g-0">
-
-                    <div class="col-md-12 col-3 position-relative project-img">
-                        <span class="project-img-overlay"></span>
-                        <img src="assets/img/projects/seker-yem.png" class="img-fluid project-img" alt="">
-                    </div>
-
-                    <div
-                        class="col-md-12 col-9 d-flex align-items-center text-center text-md-start card-body py-0 p-md-3">
-
-                        <div class="">
-                            <h5 class="card-title mb-0">Seker Yem</h5>
-                            <div class="card-text d-none d-md-inline-block">
-                                This is the frontend project I made for Seker Yem company.
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </a>
-
-            <a href="https://github.com/siarkonyar/siarkonyar.github.io"
-                class="text-dark text-decoration-none project-card col-12 card px-0" target="_blank">
-                <div class="row g-0">
-
-                    <div class="col-md-12 col-3 position-relative project-img">
-                        <span class="project-img-overlay"></span>
-                        <img src="assets/img/projects/personal-website.png" class="img-fluid project-img" alt="">
-                    </div>
-
-                    <div
-                        class="col-md-12 col-9 d-flex align-items-center text-center text-md-start card-body py-0 p-md-3">
-
-                        <div class="">
-                            <h5 class="card-title mb-0 text-capitalize">my personal website</h5>
-                            <div class="card-text d-none d-md-inline-block">
-                                This is my personal website.
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </a>
-
-            <a href="https://github.com/siarkonyar/ideabu"
-                class="text-dark text-decoration-none project-card col-12 card px-0" target="_blank">
-                <div class="row g-0">
-
-                    <div class="col-md-12 col-3 position-relative project-img">
-                        <span class="project-img-overlay"></span>
-                        <img src="assets/img/projects/ideabu.png" class="img-fluid project-img" alt="">
-                    </div>
-
-                    <div
-                        class="col-md-12 col-9 d-flex align-items-center text-center text-md-start card-body py-0 p-md-3">
-
-                        <div class="">
-                            <h5 class="card-title mb-0">Ideabu</h5>
-                            <div class="card-text d-none d-md-inline-block">
-                                This is the frontend project I made for Ideabu.
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </a>
-
-            <a href="https://github.com/siarkonyar/berqa-frontend"
-                class="text-dark text-decoration-none project-card col-12 card px-0" target="_blank">
-                <div class="row g-0">
-
-                    <div class="col-md-12 col-3 position-relative project-img">
-                        <span class="project-img-overlay"></span>
-                        <img src="assets/img/projects/berqa-tea.png" class="img-fluid project-img" alt="">
-                    </div>
-
-                    <div
-                        class="col-md-12 col-9 d-flex align-items-center text-center text-md-start card-body py-0 p-md-3">
-
-                        <div class="">
-                            <h5 class="card-title mb-0">Berqa Tea</h5>
-                            <div class="card-text d-none d-md-inline-block">
-                                This is the frontend project I made for Berqa Tea Company.
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </a>
-
-        </div>
-
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-        crossorigin="anonymous"></script>
-
-
-
-    <!--
+	<!--
         
         ███████╗░█████╗░███████╗███████╗██████╗░  ░██████╗██╗░█████╗░██████╗░
         ╚════██║██╔══██╗██╔════╝██╔════╝██╔══██╗  ██╔════╝██║██╔══██╗██╔══██╗
@@ -181,8 +196,5 @@
                 ╚═╝░░╚═╝░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝
             
             -->
-
-                
 </body>
-
 </html>

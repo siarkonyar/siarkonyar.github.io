@@ -1,7 +1,17 @@
 @media (min-width: 992px){
     .language{
-        width: 50% !important;
+        width: 100% !important;
     }
+}
+
+@media (min-width: 1250px){
+    .language{
+        width: 75% !important;
+    }
+}
+
+#resume{
+	//font-size: 0.5rem !important;
 }
 
 .language{
