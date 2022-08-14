@@ -95,15 +95,8 @@
   padding: 2rem;
   position: relative;
   overflow: hidden;
-}
-
-.sidebar #video-background {
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  background-image: url("/assets/img/background.gif");
+  background-size: cover;
 }
 
 .sidebar header {
