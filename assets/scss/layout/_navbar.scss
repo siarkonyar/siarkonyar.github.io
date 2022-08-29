@@ -11,7 +11,7 @@ $sidebar-color: #fff;
 @media (max-width: 992px) {
 	.sidebar {
 		width: 100% !important;
-		min-height: fit-content !important;
+		height: fit-content !important;
 		padding: 1.5rem;
 		position: relative;
 		header {
@@ -35,7 +35,7 @@ $sidebar-color: #fff;
 .sidebar {
 	color: $sidebar-color;
 	min-width: 30%;
-	min-height: 100%;
+	height: 100vh;
 	padding: 2rem;
 	position: relative;
 	overflow: hidden;

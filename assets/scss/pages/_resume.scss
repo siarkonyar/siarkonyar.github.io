@@ -1,6 +1,10 @@
 @media (min-width: 992px){
-    .language{
-        width: 100% !important;
+    #resume{
+        height: 100vh;
+        overflow: scroll;
+        .language{
+            width: 100% !important;
+        }
     }
 }
 
