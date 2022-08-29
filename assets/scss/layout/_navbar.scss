@@ -13,7 +13,7 @@ $sidebar-color: #fff;
 		width: 100% !important;
 		height: fit-content !important;
 		padding: 1.5rem;
-		position: relative;
+		position: relative !important;
 		header {
 			.profile-picture {
 				width: 0 !important;
@@ -37,7 +37,8 @@ $sidebar-color: #fff;
 	min-width: 30%;
 	height: 100vh;
 	padding: 2rem;
-	position: relative;
+	position: sticky;
+	top: 0;
 	overflow: hidden;
 	background-image:url("/assets/img/background.gif");
     background-size: cover;

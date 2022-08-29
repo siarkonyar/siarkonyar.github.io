@@ -1,9 +1,5 @@
 @media (min-width: 992px) {
-  #resume {
-    height: 100vh;
-    overflow: scroll;
-  }
-  #resume .language {
+  .language {
     width: 100% !important;
   }
 }
@@ -76,7 +72,7 @@
     width: 100% !important;
     height: fit-content !important;
     padding: 1.5rem;
-    position: relative;
+    position: relative !important;
   }
   .sidebar header .profile-picture {
     width: 0 !important;
@@ -97,7 +93,8 @@
   min-width: 30%;
   height: 100vh;
   padding: 2rem;
-  position: relative;
+  position: sticky;
+  top: 0;
   overflow: hidden;
   background-image: url("/assets/img/background.gif");
   background-size: cover;
@@ -176,16 +173,7 @@
   }
 }
 
-body {
-  height: 100% !important;
-}
-
-body .outter-all {
-  min-height: 100% !important;
-}
-
 html {
-  height: 100% !important;
   font-size: 18px;
 }
 /*# sourceMappingURL=style.min.css.map */
