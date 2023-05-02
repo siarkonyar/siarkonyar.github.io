@@ -59,7 +59,8 @@ $sidebar-color: #fff;
 			overflow: hidden;
 			.pp {
 				width: 100%;
-				height: 100%;
+				min-height: 100%;
+				transform: translate(0%,-10%);
 			}
 		}
 		.header-text {

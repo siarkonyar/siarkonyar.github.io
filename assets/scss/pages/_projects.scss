@@ -24,6 +24,19 @@
     }
 }
 
+.projects{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .projects-inner{
+        a{
+            margin-right: 10px;
+            margin-left: 10px;
+            height: fit-content;
+        }
+    }
+}
+
 .project-card {
     width: 100%;
 
