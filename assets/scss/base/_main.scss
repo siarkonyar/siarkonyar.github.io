@@ -9,3 +9,15 @@
 html{
 	font-size: 18px;
 }
+
+a {
+	color: #FF4500;
+
+	&:hover {
+		color: #CC3700;
+	}
+
+	&:active {
+		color: #992900;
+	}
+}

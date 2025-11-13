@@ -6,7 +6,7 @@ $sidebar-color: #fff;
 }
 
 @media (max-width: 768px) {
-	
+
 }
 @media (max-width: 992px) {
 	.sidebar {
@@ -40,8 +40,9 @@ $sidebar-color: #fff;
 	position: sticky;
 	top: 0;
 	overflow: hidden;
-	background-image:url("/assets/img/background.gif");
-    background-size: cover;
+	/* background-image:url("/assets/img/background.gif");
+    background-size: cover; */
+    background: #FF4500;
 	// #video-background {
 	// 	position: absolute;
 	// 	min-width: 100%;
@@ -96,7 +97,7 @@ $sidebar-color: #fff;
 
 	.social-media {
 		width: 100%;
-		
+
 		.social-media-item {
 			display: inline-block;
 			a {
